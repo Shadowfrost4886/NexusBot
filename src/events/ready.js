@@ -35,19 +35,19 @@ module.exports = {
             if (command.data && typeof command.data.toJSON === "function") {
                 commands.push(command.data.toJSON());
             } else {
-                console.error(`[ERROR] >>> Invalid data structure in command file: ${file}`);
+                console.error(` Invalid data structure in command file: ${file}`);
             }
         }
 
         const rest = new REST({ version: "10" }).setToken(token);
         try {
-            console.log(`[CLIENT] >>> Started refreshing ${commands.length} application (/) commands.`);
+            console.log(`refreshing ${commands.length} application (/) commands.`);
             const data = await rest.put(Routes.applicationCommands(clientId), {
                 body: commands,
             });
-            console.log(`[CLIENT] >>> Successfully reloaded ${data.length} application (/) commands.`);
+            console.log(`Reloaded ${data.length} application (/) commands.`);
         } catch (error) {
-            console.error(`[ERROR] >>> Error occurred during the refreshing/registration of application commands:`, error);
+            console.error(` Error occurred during the refreshing/registration of application commands:`, error);
         }
     },
 };
