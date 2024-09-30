@@ -11,7 +11,11 @@ Nexus is a powerful, community-driven Discord bot aimed at providing custom comm
 We welcome contributions from developers of all levels. Whether you're fixing bugs, adding new features, or enhancing the bot’s performance, we’d love your input.
 
 ### Steps to Contribute:
-1. Coming Soon
+1. **Fork the repository**.
+2. Create a new branch for your feature or bug fix.
+3. **Write clean, readable code** that follows best practices.
+4. Submit a **pull request** with a clear explanation of the changes.
+5. I’ll review your submission, checking for functionality, readability, and any potential security risks.
 
 ## 🔒 Security and Code Review
 
@@ -22,4 +26,17 @@ We care deeply about keeping Nexus safe and secure. Every piece of code that get
 
 ## ⚡ Features of Nexus
 
-- **What Ever You Make!**
+- **What You Make**
+
+
+
+## 📬 Contact & Support
+
+If you have any questions, feel free to open an issue, or reach out through our [Discord Server](https://discord.gg/EyVW9P5QFD). We're here to help and support you along the way.
+
+---
+
+Together, we can build something amazing. Let’s make **Nexus** the go-to bot for all Discord servers. 💪
+
+Happy coding! 👾
+
